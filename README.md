@@ -20,3 +20,9 @@ Python + PyBullet
 Myśleliśmy o dwóch opcjach:
 - *MPC* - może okazać się zbyt wymagający obliczeniowo dla prawdziwego robota, ale w symulacji zadziała
 - *LQI* (Linear Quadratic Integral) - aby robot utrzymywał pion i nie dryfował. Zwykły LQR nie poradziłby sobie w przypadku gdy czujnik będzie krzywo umieszczony (co w praktyce jest nieuniknione).
+
+## Milestoney
+- dokończenie hardwareu (płytka PCB z STM32H7, mocowania itp.)
+- wyznaczenie równań ruchu i symulacja
+- integracja sterownika na robocie i utrzymywanie pozycji
+- podążanie za trajektorią
